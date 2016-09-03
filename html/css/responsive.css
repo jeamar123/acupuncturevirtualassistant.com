@@ -1,0 +1,125 @@
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.container {
+		width: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container {
+		width: 960px;
+		margin: 0px auto;
+	}
+	.navbar-header {
+	    display: none;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+} 
+@media only screen and (max-width : 908px) {
+	#main-menu {
+		margin-left: -40px;
+	}
+}    
+@media only screen and (max-width : 890px) {
+	.navbar-header {
+		background-color: #F4F4F4;
+	}
+	#main-menu li a {
+	    padding-left: 8px !important;
+	    padding-right: 8px !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#main-menu {
+		margin-left: 0px;
+		width: 100%;
+	}
+	.navbar-header {
+		border-bottom: 1px solid #e9e9e9;
+	}
+	#main-menu li a {
+	    padding-top: 10px !important;
+	    padding-bottom: 10px !important;
+	}
+}
+@media only screen and (max-width : 678px) {
+	.top-menu,
+	.top-search
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.social-sites {
+		text-align: center !important;
+    	margin: 3px 0;		
+	}
+	.logo-wrapper,
+	.header-contact-top
+	{
+	    float: none !important;
+	    margin: auto;
+	}
+	.header-contact-top {
+	    padding-top: 25px !important;
+	    text-align: center;
+	}
+	#main-container {
+	    margin-top: -270px !important;
+	}
+	.copyright p span, 
+	.copyright p span a 
+	{
+		float: none !important;
+	    display: block;
+	    text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 375px) {
+	.post-content article img {
+	    width: 100%;
+	}	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}

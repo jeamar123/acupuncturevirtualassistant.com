@@ -1,0 +1,53 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Billy Joel Ranario
+Version: 1.0
+Text Domain: 
+*/
+/* ---------* Fonts *---------------- */
+@import url('fonts.css') screen;
+/* ---------* end: Fonts *----------- */
+
+/* ---------* Reset CSS *------------ */
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+#page-title-wrapper {
+    margin-top: -8px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;    
+}
+.page-title-content {
+    overflow: hidden;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+    border-color: #e9e9e9;
+    background: url('../img/page-title-gradient.png') repeat-x;
+    background-color: #f8f8f8;
+}
+.page-title-content h1 {
+    color: #5c5c5c;
+    font-size: 28px;
+    padding: 15px 0;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+/* ---------* end: Override *--------- */

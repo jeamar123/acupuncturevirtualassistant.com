@@ -1,0 +1,23 @@
+WP-Admin Account: 
+
+username: acupu
+password: Aq1xsW2
+
+<!-- GUIDE FOR TEMPLATE -->
+http://demo.goodlayers.com/?theme=medicalplus
+
+
+
+<!-- STYLES -->
+CONTAINER 
+
+@min-width 991px: 
+	width: 960px
+
+
+TOP NAV BG:
+background-color: #409600;
+color: #B4D2B0;
+
+TOP HEADING BG:
+background-color: #76c27a;

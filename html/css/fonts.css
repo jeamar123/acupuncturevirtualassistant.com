@@ -1,0 +1,16 @@
+@font-face {
+    font-family: gotham-htf;
+    src: url('../fonts/GothamHTF-Book.ttf')  format('truetype');
+}
+@font-face {
+    font-family: opensans-reg;
+    src: url('../fonts/OpenSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: opensans-lt;
+    src: url('../fonts/OpenSans-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: opensans-bd;
+    src: url('../fonts/OpenSans-Bold.ttf')  format('truetype');
+}
